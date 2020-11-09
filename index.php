@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Projeto 06</title>
+	<title>Singlepage INFO</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="_css/style.css" rel="stylesheet">
 	<meta charset="utf-8" />
@@ -125,8 +125,9 @@
 				<h2><div class="borda-efeito"></div> Conheça nosso time</h2>
 				<div class="w50 equipe-single">
 					<div class="topo-box-usuario">
-						<div class="box-avatar"></div><div class="info-usuario">
-							<p style="font-weight: bold;">Nome Sobrenome</p>
+						<div class="box-avatar"><img class="instruct" src="_images/instructor (4).jpg"></div>
+						<div class="info-usuario">
+							<p style="font-weight: bold;">Antônio José</p>
 							<p style="font-weight: italic;">CEO/INSTRUTOR</p>
 						</div>
 					</div><!--topo-box-usuario-->
@@ -136,9 +137,10 @@
 				</div><!--equipe-single-->
 				<div class="w50 equipe-single">
 					<div class="topo-box-usuario">
-						<div class="box-avatar"></div><div class="info-usuario">
-							<p style="font-weight: bold;">Nome Sobrenome</p>
-							<p style="font-weight: italic;">CEO/INSTRUTOR</p>
+						<div class="box-avatar"><img class="instruct" src="_images/instructor (3).jpg"></div>
+						<div class="info-usuario">
+							<p style="font-weight: bold;">Joaquim Nascimento</p>
+							<p style="font-weight: italic;">Técnico Responsável</p>
 						</div>
 					</div><!--topo-box-usuario-->
 					<div class="descricao-usuario-box">
@@ -147,9 +149,10 @@
 				</div><!--equipe-single-->
 				<div class="w50 equipe-single">
 					<div class="topo-box-usuario">
-						<div class="box-avatar"></div><div class="info-usuario">
-							<p style="font-weight: bold;">Nome Sobrenome</p>
-							<p style="font-weight: italic;">CEO/INSTRUTOR</p>
+						<div class="box-avatar"><img class="instruct" src="_images/instructor (2).jpg"></div>
+						<div class="info-usuario">
+							<p style="font-weight: bold;">Carla Sivla</p>
+							<p style="font-weight: italic;">Analista de Rede</p>
 						</div>
 					</div><!--topo-box-usuario-->
 					<div class="descricao-usuario-box">
@@ -158,9 +161,10 @@
 				</div><!--equipe-single-->
 				<div class="w50 equipe-single">
 					<div class="topo-box-usuario">
-						<div class="box-avatar"></div><div class="info-usuario">
-							<p style="font-weight: bold;">Nome Sobrenome</p>
-							<p style="font-weight: italic;">CEO/INSTRUTOR</p>
+						<div class="box-avatar"><img class="instruct" src="_images/instructor (1).jpg"></div>
+						<div class="info-usuario">
+							<p style="font-weight: bold;">João Oliveira</p>
+							<p style="font-weight: italic;">Desenvolvedor</p>
 						</div>
 					</div><!--topo-box-usuario-->
 					<div class="descricao-usuario-box">
@@ -173,7 +177,7 @@
 		</div><!--center-->
 	</section><!--final-section-->
 	<footer>
-		<p>Todos os direitos reservados ao PROJETO #6!!</p>
+		<p>Todos os direitos reservados! /2020</p>
 	</footer><!--footer-->
 	<script src="_js/jquery.js"></script>
 	<script src="_fontawesome/js/all.js"></script>
