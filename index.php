@@ -11,7 +11,7 @@
 	<meta name="author" content="Alcenir da Costa"/>
 </head>
 <body>
-	<section class="main">
+	<section id="home" class="main">
 		<div class="layer"></div><!--layer-->
 		<div class="center">
 			<header>
@@ -25,17 +25,19 @@
 				</div><!--logo-->
 				<nav class="desktop">
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">Sobre</a></li>
-						<li><a href="">Contato</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#planos">Planos</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
 					</ul>
 				</nav>
 				<nav class="mobile">
 					<i id="menu-mobile" class="fas fa-bars"></i>
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">Sobre</a></li>
-						<li><a href="">Contato</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#planos">Planos</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
 					</ul>
 				</nav><!--mobile-->
 				<div class="clear"></div><!--clear-->
@@ -49,13 +51,13 @@
 			</div><!--conteudo-header-->
 		</div><!--center-->
 	</section><!--main-->
-	<section class="planos">
+	<section id="planos" class="planos">
 		<div class="chamada-planos">
 			<div class="center">
 				<h2>Confira nossos planos!</h2>
 			</div><!--center-->
 		</div><!--chamada-planos-->
-		<section class="box-planos">
+		<section  class="box-planos">
 			<div class="center">
 				<div class="box-planos-single">
 					<div class="box-planos-wraper">
@@ -110,9 +112,9 @@
 			<p>In laoreet commodo neque, in varius orci pharetra et. Donec sagittis nulla a porta scelerisque. Nulla dapibus lobortis velit. Nulla consectetur nunc in ante congue egestas. Sed sollicitudin, mi ut mattis facilisis, arcu purus euismod nisi, non convallis enim nulla nec mauris. In cursus eu nulla ac tempor. Phasellus hendrerit, libero in lacinia pellentesque, neque ante egestas est, ac cursus augue nulla ac ante. Vivamus eget rutrum elit, dapibus venenatis ante. Sed elit dui, fermentum a imperdiet id, hendrerit et lorem.</p>
 		</div><!--center-->
 	</section><!--parallax-->
-	<section class="final-section">
-		<div class="center">
-			<div class="w50 contato">
+	<section id="contato" class="final-section">
+		<div id="sobre" class="center">
+			<div  class="w50 contato">
 				<h2><div class="borda-efeito"></div>Entre em contato</h2>
 				<form>
 					<input required type="text" name="" placeholder="Insira seu NOME">
@@ -183,5 +185,6 @@
 	<script src="_fontawesome/js/all.js"></script>
 	<script src="_fontawesome/js/all.js"></script>
 	<script src="_js/all.min.js"></script>
+	<script src="_js/menu_scroll.js"></script>
 </body>
 </html>
